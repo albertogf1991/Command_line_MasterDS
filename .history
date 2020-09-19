@@ -132,3 +132,57 @@ cd Repos
  git clone https://github.com/albertogf1991/Command_line_MasterDS.git 
 cd Command_line_MasterDS
 cp ~/.history ./
+ls -a
+git add .history
+git commit -m "first 5h of master"
+cd
+pwd
+cd -
+ll
+ls -a
+gedit .history
+git reset
+git reset --hard
+ls -a
+git push
+cd
+mkdir first_dir
+cd first_dir
+touch text_file.txt
+ls -a
+ls -l
+chmod 777
+chmod 777 text_file.txt
+ls -l
+mkdir sub1
+mkdir sub2
+mkdir text_file
+ls -a
+cp text_file.txt sub1
+ls -a
+cp -p text_file.txt sub1
+cd sub1
+ls .l
+ls-l
+ls -l
+ ls sub1
+cd first_dir
+cd
+cd first_dir
+ls sub1
+mc text_file.txt sub2 /text_file.txt.2
+mv text_file.txt sub2 /text_file.txt.2
+mv text_file.txt sub2/text_file.txt.2
+ls sub2
+cp sub1 sub3
+cp -r sub1 sub3
+ls sub3
+ mv sub2/text_file.txt.2 sub2/text_file.txt.backup
+mv sub2/text_file.txt.backup ./.text_file.txt.backup
+ls -a
+ rm -r sub2
+ll
+cd Repos/command_line_masterDS
+cd
+cd Repos/Command_line_MasterDS
+cp ~/.history .

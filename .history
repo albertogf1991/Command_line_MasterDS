@@ -186,3 +186,132 @@ cd Repos/command_line_masterDS
 cd
 cd Repos/Command_line_MasterDS
 cp ~/.history .
+git add -u
+git commit -m "Quick exercise --> $(date)"
+cd
+alias
+cd Repos
+cd Command_line_MasterDS
+git status
+cd
+alias gl='git log'
+alias
+alias gc='git commit -m'
+alias
+cp .zshrc .zshrc.backup
+which ll
+which cd
+which git
+which python
+whereis python
+sudo which python
+this is very NICE
+git status
+cd
+ls
+cd Data
+ls
+cd opentraveldata
+ls
+cat - n optd_aircraft.csv| head -8| tail -1
+cat  optd_aircraft.csv
+echo Test
+echo Test >test_file
+cat test_file
+echo Test2>test_file
+cat test_file
+echo Test3>>test_file
+cat test_file
+<test_file wc
+cat -n optd_aircraft.csv | head -8 | tail -1
+cd
+cd Data/shell
+ls
+cat -5 Finn.txt | wc
+car -n Finn.txt | head 5 | wc
+head 5 Finn.txt | wc
+head -5 Finn.txt | wc
+head -5 Finn.txt | wc -w
+tail -20 ~/.history > last_20_commands
+echo This file is created by Alberto on @(date) > Date_user_file 
+ls
+echo "This file is created by ALberto on @(date)" > DAte_user_file
+ls
+cat DAte_user_file
+echo "This file is created by ALBERTO on $(date)" > DAte_user_file
+cat DAte_user_file
+cd
+find
+find . 
+find ./Repos/
+find ./Repos/ | wc
+find ./Repos/Master_Kschool | wc
+find . -name "text_file"
+find . -maxdepth 2 -type d -iname "text_file"
+cd Data
+find . -type f -iname "*.csv"
+find . -type f -iname "*.csv" | wc
+find . -type f -iname "*.csv" -exec echo "FOUND ME" \;
+find . -type f -iname "*.csv" -exec echo "FOUND ME" 
+find . -type f -iname "*.csv" -exec echo "FOUND ME" \;
+echo this ; echo that
+echo this  echo that
+echo this \; echo that
+find . -type f -iname "*.csv" -exec echo "FOUND ME" \;
+find . -type f -iname "*.csv" -exec echo ls -l {} \;
+find . -type f -iname "*.csv" -exec ls -l {} \;
+find . -type f -iname "*.csv" -exec ls -l  \;
+find . -type f -iname "*.csv" -exec ls -l {} \;
+find . -type f -iname "*.csv" -exec ls -l {} \; -exec head -2 {} \;
+find . -type f -iname "*.csv" -exec ls -l {} \; -exec head -2 {} \; less -S
+find . -type f -iname "*.csv" -exec ls -l {} \; -exec head -2 {} \; | less -S
+find . -type f -iname "*.csv" -exec ls -l {} | wc;
+find . -type f -iname "*.csv" -exec ls -l {} | wc \;
+find . -type f -iname "*.csv" -exec zsh -c ls -l {} | wc \;
+find . -type f -iname "*.csv" -exec zsh -c "ls -l {} | wc" \;
+bash
+echo $0
+exit
+echo $0
+cd
+find . -mmin -60
+find .-maxdepth4 -mmin -60
+find .-maxdepth 4 -mmin -60
+find . -maxdepth 4 -mmin -60
+find . -maxdepth 2  -mmin -60
+find . -empty -perm 770
+find . -maxdepth2  -empty -perm 770
+find . -maxdepth 2  -empty -perm 770
+find . -type f -mmin -60
+find . -mindepth 2 -type f -mmin -60
+ls
+cd Data
+find. -type d
+finde . -type d
+find . -type d
+ls -l us_dot
+ls -l opentraveldata
+find . -type d -exec "ls-l" \;
+find . -type d -exec ls-lS \;
+find . -type d -exec ls-lS {} | head -3 \;
+find . -type d -exec ls-lS {} \; | head -3 
+ls - lS
+ls-lS
+ls
+ls -l
+ls -lS
+find . -type d -exec ls -lS {} \; | head -3 
+find . -type d -exec "ls -lS {}" \;
+find . -type d -exec "ls -l {}" \;
+find . - mindepth 1 -type d -exec "ls -l {}" \;
+find . - mindepth 1 -type d -exec ls -l {} \;
+find . - mindepth 1 -type d -exec ls -S {} \;
+find . - mindepth 1 -type d -exec ls -lS {} \;
+find . - mindepth 1 -type d -exec "ls -lS {} | head -3@ \;\
+"
+find . - mindepth 1 -type d -exec "ls -lS {} | head -3"  \;
+find . - mindepth 1 -type d -exec zsh "ls -lS {} | head -4" \;
+find . - mindepth 1 -type d -exec echo {}; -exec zsh -c "ls -lSh {} | head -4" \;
+cd ../Repos
+cd Command_line_MasterDS
+cp ~/.history .

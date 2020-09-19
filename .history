@@ -1,0 +1,134 @@
+ls
+echo $SHELL
+whoami
+echo $TERM
+echo albert
+echo $USER
+echo '$USER'
+echo 'mi usuario es $USER'
+ECHO 'mi usuario es '$USER''
+echo albert
+echo 'mi usuario es '$USER''
+echo "hoy es el dia `date`"
+"hoy es el dia date"
+echo "hoy es el dia date"
+echo "hoy es el dia $(date)"
+echo " en este directorio no encuentro lo siguiente: $ls"
+echo "hoy es el dia `date`\
+"
+echo "a\n"
+echo"a\b"
+echo "a\b"
+echo holi; echo date; echo adios
+echo holi; echo $DATE; echo adios
+echo holi; echo $(date); echo adios
+cd Data\shell
+cd Data/shell
+ls
+cat Text_example.txt
+cat -n Text_example.txt Text_example.txt Text_example.txt
+pwd
+cd ~
+cd Data/shell
+cd ../
+pwd
+cd ../../../
+cd ~
+cd~
+cd ~
+ls
+ls -a
+ls -1
+ls-s
+ls -s
+ls -l
+ls -la
+mkdir holi
+ls
+clear
+cp holi ~
+rm holi
+git clone https://github.com/IgorAramb/DS_CL_files.git
+man ls
+ls --help
+gitconfig--global user.name "Alberto G"
+gitconfig --global user.name "Alberto G"
+~/.gitconfig
+git config --global user.name "Alberto G"
+git config --global user.mail "albertogf.1991@gmail.com\
+"
+git clone https://github.com/albertogf1991/Master_Kschool.git
+git status
+git --
+git config --global user.name "Alberto G"
+git
+git config --global user.email "albertogf.1991@gmail.com"
+cat .gitconfig
+gedit .config/
+ cat .gitconfig
+ls
+mkdir Repos
+cd Repos
+git clone https://github.com/albertogf1991/Master_Kschool.git
+git clone https://github.com/albertogf1991/Master_Kschool.git Otro_dir_name
+ls
+pwd
+git clone https://github.com/albertogf1991/Master_Kschool.git ../Pictures/nombre_repo_2
+ls ../Pictures
+git init Fortis_C2
+ll
+cd Fortis_C2
+cd
+cd-
+cd -
+git status
+cd ..
+mkdir test
+cd Repos
+cd Fortis_C2
+ls -a
+cd
+git init
+cd ..
+cd
+cd Repos
+cd
+rm -rf .git
+git status
+cd Fortis_C2
+cd Repos/FOrtis_C2
+cd Repos
+ls
+cd Repos/Fortis_C2
+cd Fortis_C2
+touch first_file.txt
+touch second_file
+ls
+ll
+gedit first_file.txt
+git add first_file.txt
+git status
+ll
+git add second_file
+git status
+git commit -m "first commit"
+git status
+git log
+gedit first_file.txt
+git status
+ git add -u
+git status
+git commit
+git log
+git remote - v
+git remote -v
+git remote add origin https://github.com/albertogf1991/local_init.git
+git remote -v
+git branch -M master
+git push -u origin master
+cd
+cat .history
+cd Repos
+ git clone https://github.com/albertogf1991/Command_line_MasterDS.git 
+cd Command_line_MasterDS
+cp ~/.history ./

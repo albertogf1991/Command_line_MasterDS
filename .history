@@ -315,3 +315,249 @@ find . - mindepth 1 -type d -exec echo {}; -exec zsh -c "ls -lSh {} | head -4" \
 cd ../Repos
 cd Command_line_MasterDS
 cp ~/.history .
+git add -u
+gc "command find"
+which gc
+git push
+ pwd
+cd~
+cd ~
+ls
+cd shared
+ls
+cd
+whoami
+pwd
+lrt
+ls ~ lrt
+ls ~lrt
+ls -lrt
+ls -lh
+cd Repos
+ls
+cd Master_Kschool
+ls
+cd -
+pwd
+cd ..
+mkdir repos25
+cd repos25
+pwd
+mkdir toni
+cd toni
+echo "my name is not important" >> README.md
+ll
+history > mi:historial.txt
+ll
+cat ~ /.history
+cat ~/.history
+history > mi_hisotorial.txt
+ll
+rm myapp
+rm mi:historial.txt
+ll
+rm mi_hisotorial.txt
+ll
+git init
+git status
+git add README.md
+git commit - m "first commit"
+git commit -m "first commit"
+git remote add origin https://github.com/albertogf1991/alberto.git
+git push -u origin master
+cat ~/.gitcongifg
+cat ~/.gitconfig
+ls
+git ls-files
+git add kk.txt
+git ls-files
+git status
+touch kk.txt
+git add kk.txt
+git status
+ echo "estoy cambiando el archivo sin hacer commit" >> kk.txt
+cat kk.txt
+git status
+git checkout -- kk.txt
+cat kk.txt
+ echo "estoy cambiando el archivo sin hacer commit 2" >> kk.txt
+cat kk.txt
+git add kk.txt
+git commit -m "he aÃ±adido un mensaje en kk.txt"
+git status
+git reset origin\master
+git reset origin/master
+git status
+pwd
+ll
+rm kk.txt
+rm README.md
+git checkout REAMDE.MD
+git checkout README.md
+ll
+cd ..
+git status
+cd toni
+git status
+ll
+touch kk.txt
+git add kk.txt
+git status
+git push origin master
+git status
+git rm kk.txt
+git push origin master
+ll
+rm kk.txt
+git status
+ll
+git commit -m "kk.txt remove"
+git push origin master
+git log
+cd ..
+cd
+pwd
+ echo "My home directory is $HOME"
+echo 'My home directory is $HOME'
+echo "kk"
+echo 'kk'
+echo 'date'
+echo `date`
+echo "hola voy a saltar\
+y sigo"
+echo "$(date)"
+echo "$PATH\
+"
+echo "$HOME"
+seq 1 2 10
+seq 1 10
+seq 1 2 10 > uniq_example.txt
+seq 1 1 10 >> uniq_example.txt
+cat uniq_example.txt
+uniq uniq_example.txt
+uniq uniq_example.txt > uniq_example_01.out
+less uniq_example_01.out
+diff uniq_example_01.out uniq_example.txt
+sort uniq_example.txt
+sort uniq_example.txt | uniq
+sort uniq_example.txt | uniq -d
+man uniq
+sort uniq_example.txt | uniq -c
+sort -n uniq_example.txt
+sort uniq_example.txt > sorted.txt
+sort -n uniq_example > sorted_num.txt
+sort -n uniq_example.txt > sorted_num.txt
+cat sorted_num.txt
+diff sorted.txt sorted_num.txt
+sort -r uniq_example.txt
+sort - n -r uniq_example.txt
+sort -n -r uniq_example.txt
+sort -n uniq_example.txt sorted_num.txt
+sort -n -u uniq_example.txt
+sort -n uniq_example.txt | uniq
+cd DATA
+LS
+ls
+ git clone https://github.com/IgorAramb/DS_CL_files.git
+ls
+cd Data
+ll
+cd opentraveldata
+head -n 5 optd_aircraft.csv
+sort -t "^" 6r optd_aircraft.csv
+sort -t "^" -k 6r optd_aircraft.csv
+sort -t "^" -k 6r optd_aircraft.csv | head -n 5
+sort -t "^" -k 6r optd_aircraft.csv | tail  -n 5
+sort -t "^" -k 6 optd_aircraft.csv | head -n 5
+sort -t "^" -k 2 optd_aircraft.csv | head -n 5
+sort -t "^" -k 2r optd_aircraft.csv | head -n 5
+sort -t "^" -k 2,2 optd_aircraft.csv | head -n 5
+sort -t "^" -k 2,6 optd_aircraft.csv | head -n 5
+sort -t "^" -k 2,2 optd_aircraft.csv | head -n 5
+sort -t "^" -k 2,2 optd_aircraft.csv | wc
+cat optd_aircraft.csv | wc
+cat optd_aircraft.csv |uniq |wc
+find ~ -type f -size +10M -exec ls -sh {} \; | head -n 5
+find ~/Data -type f -size +10M -exec ls -sh {} \; | head -n 5
+find ~/Data -type f -size +10M -exec ls -sh {} \; | head -n 10
+find ~/Data -type f -size +10M -exec ls -sh {} \; | sort -nr | head -n 10
+seq 15 > 20lines.txt
+seq 9 1 20 >> 20lines.txt
+echo "20\n20" >> 20lines.txt
+cat 20lines.txt
+sort -n 20lines.txt
+sort -n 20lines.txt |uniq
+uniq -d 20lines.txt
+sort -d 20lines.txt |uniq -d
+sort -d 20lines.txt |uniq -c | head -n 1
+sort -d 20lines.txt |uniq -c | sort -nr|head -n 1
+sort -d 20lines.txt |uniq -c | sort -n|tail -n 1
+seq 0 2 40 > 20lines.txt
+less 20lines.txt
+cat 20lines.txt
+seq 15 > 20lines.txt
+seq 9 1 20 >> 20lines.txt
+echo "20\n20" >> 20lines.txt
+seq 0 2 40 > 20lines2.txt
+cat 20lines2.txt
+20lines.txt 20lines2.txt > 20lines3.txt
+cat -n 20lines.txt 20lines2.txt > 20lines3.txt
+cat 20lines3.txt
+cut -d "^" -f 1-3,5 optd_aircraft.csv| head 
+cat optd_aircraft.csv | head
+cut -d "^" -f 1-3,5 optd_aircraft.csv| head 
+cut -d "^" -f 1-3 optd_aircraft.csv| head 
+cut -d "^" -f 1-3 --output-delimiter "," optd_aircraft.csv| head 
+[200~cut -d "^" -f 1-3,5 --output-delimiter "OMG"  optd_aircraft.csv | cut -d "OMG" -f 2 | head
+cut -d "^" -f 1-3,5 --output-delimiter "OMG"  optd_aircraft.csv | cut -d "OMG" -f 2 | head
+cut -d "^" -f 1-3 --output-delimiter "OMG" optd_aircraft.csv| head 
+cut -d "^" -f 1-3,5 --output-delimiter "OMG"  optd_aircraft.csv | cut -d "OMG" -f 2 | head
+seq 5 | paste
+seq 5 | paste -s
+seq 5 | paste
+seq 5 | paste -s -d "^"
+seq 5 | paste -s -d "ABC"
+seq 5 | paste ---
+seq 5 | paste ----d "ABC"
+paste 20lines.txt 20lines2.txt
+paste -s 20lines.txt 20lines2.txt
+seq 1 10 > number.txt
+paste < number.text
+paste < number.text Teste_example.txt
+cat number.txt
+echo "master data science | tr a A\
+"
+echo "master data science" | tr a A
+echo "master data science" | tr sa AB
+echo "master data science" | tr -s "" "^"
+echo "master data science" | tr -s " " "^"
+echo "master data science" | tr  " " "^"
+echo "master   data   science" | tr -s  " " "^"
+echo "master   data   science" | tr -s  "ma " "ma"
+echo "master   data   science" | tr -d sa
+echo "master   data   science" | tr -cd sa
+echo "master 123 data 124 science 1" | tr"[:lower:]" "[:upper:]â€ƒ¼\
+"
+echo "master 123 data 124 science 1" | tr "[:lower:]" "[:upper:]â€ƒ¼\
+"
+history|grep clone
+cd ..
+ls
+cd shell
+ls
+grep this Text_example.txt
+grep -v THIS Text_example.txt
+grep -i -n THIS Text_example.txt
+grep c this Text_example.txt
+grep -c this Text_example.txt
+grep -c -i this Text_example.txt
+grep -cv "this" Text_example.txt
+grep -n -i -E "^T" Text_example.txt 
+cd ..
+cd
+ cd Repos
+./Command_line_MasterDS
+ls
+cd Command_line_MasterDS
+cp ~/.history
+cp ~/.history .
